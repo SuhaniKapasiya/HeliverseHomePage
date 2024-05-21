@@ -4,7 +4,7 @@
 
 This project is a replica of the home page of the Motion Art Effect website. The goal was to closely match the design, layout, animation, and functionality of the original page.
 
-## Website Link
+## Live Link
 
 [View Original Website](https://heliverse-home-page.vercel.app/)
 
