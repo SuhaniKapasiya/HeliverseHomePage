@@ -2,8 +2,10 @@ import React from "react";
 
 const Card = ({ image, heading, description }) => {
   return (
-    <div className="flex flex-col items-center border-[2px] p-5 rounded-md
-     shadow-md max-w-xs mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mb-20">
+    <div
+      className="flex flex-col items-center border-[2px] border-richblack-100 p-5 rounded-md
+     shadow-md max-w-xs mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mb-20"
+    >
       <img
         src={image}
         alt={heading}

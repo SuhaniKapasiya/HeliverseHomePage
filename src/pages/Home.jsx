@@ -109,24 +109,27 @@ const Home = () => {
         </div>
       </section>
       {/* // Section 4 */}
-      <section>
-        <div className="flex justify-between items-center px-4 sm:px-6 lg:px-8">
-          <div>
-            <h2>
-              Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors
-            </h2>
-            <p>
-              Motion Art for Elementor is a groundbreaking plugin that empowers
-              you to effortlessly infuse your website with visually stunning
-              motion art elements.
-            </p>
-            <div className="flex items-center gap-3 text-[13px] px-6 py-3 rounded-md font-bold ">
-              Purchase From Envato
-              <AiOutlineArrowRight />
+
+      <section className="px-4 sm:px-6 lg:px-8 mb-40">
+        <div className="mx-auto max-w-7xl">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
+            <div className="flex flex-col gap-6 lg:w-1/2 lg:pr-12 items-center lg:items-start">
+              <h2 className="font-semibold text-xl lg:text-3xl text-richblack-5 text-center lg:text-left">
+                Turn Your Cursor Into A Colorful Magic Wand & Charm Your
+                Visitors
+              </h2>
+              <p className="text-base lg:text-lg font-medium text-richblack-300 text-center lg:text-left">
+                Motion Art for Elementor is a groundbreaking plugin that
+                empowers you to effortlessly infuse your website with visually
+                stunning motion art elements.
+              </p>
+              <div className="bg-gradient-to-r from-[#F87516] to-[#5E11FF] flex items-center justify-center lg:justify-start text-sm px-4 py-3 rounded-md font-bold mx-auto lg:mx-0 lg:w-[50%] lg:py-2 lg:pl-6">
+                Purchase From Envato <AiOutlineArrowRight className="ml-2" />
+              </div>
             </div>
-          </div>
-          <div className="">
-            <img src={image5} alt="Image" />
+            <div className="">
+              <img src={image5} alt="Image" className="w-full" />
+            </div>
           </div>
         </div>
       </section>
@@ -201,6 +204,7 @@ const Home = () => {
             image={card.image}
             heading={card.heading}
             description={card.description}
+            
           />
         ))}
       </section>
