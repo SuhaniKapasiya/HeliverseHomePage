@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #191919;
+}
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* .gradient-bg {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  color: white; 
+  padding: 1em 2em; 
+  border: none;
+  border-radius: 0.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5em; 
+  cursor: pointer;
+  text-align: center;
+} */
